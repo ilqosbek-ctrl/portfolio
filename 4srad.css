@@ -1,0 +1,86 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    nav{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #78B9B5;
+        color:#FFF;
+
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap:10px;
+        font-size: 24px;
+    }
+    .logo{
+        font-size: 44px;
+        font-weight: bold;
+        color:#e8e8e8;
+    }
+    main{
+        padding: 6rem;
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        background-color: #baf3ef;
+        justify-content: center;
+        gap:20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    main>img{
+        border-radius: 50%;
+        margin: 20px;
+        height:250px;
+        width:250px;
+    }
+    main>img:hover{
+        scale: 1.1;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap:10px;
+    }
+    .block-span{
+        display: block;
+    }
+    button{
+        padding: 10px 20px;
+        cursor:pointer;
+        border:none;
+        border-radius: 16px;
+        background: #4b4b4b;
+        color:white;
+
+    }
+    .about-me{
+        height: 100vh;
+        background: #FFCB61;
+        display: flex;
+        gap:40px;
+        color:white;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+    .about-article{
+        max-width: 300px;
+    }
+    .about-me-h2{
+        position: absolute;
+        font-size: 76px;
+        font-weight: bold;
+        top: 200px;
+        color:white;
+        letter-spacing: 6px;
+    }
