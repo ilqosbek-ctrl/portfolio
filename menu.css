@@ -1,4 +1,15 @@
-     * {
+    @media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -126,4 +137,5 @@
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvSNe3lqfZfNDxBNVhMKkqeB_QbLMAZHfY7w&s) ;
       }.baklajanoviy {
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatXfeyCkFLKzQHLGzwgbmh3BhmNZJ9-KeYg&s) ;
+
       }
