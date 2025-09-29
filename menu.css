@@ -3,11 +3,6 @@
     background-color: lightblue;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  p {
-    font-size: 18px;
-  }
-}
 
     * {
         margin: 0;
@@ -139,3 +134,4 @@
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatXfeyCkFLKzQHLGzwgbmh3BhmNZJ9-KeYg&s) ;
 
       }
+
