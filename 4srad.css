@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   body {
-    background-color: lightblue;
+    max-width: 768px
   }
 }
 
@@ -91,3 +91,4 @@
         letter-spacing: 6px;
 
     }
+
