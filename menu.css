@@ -1,6 +1,6 @@
     @media (max-width: 768px) {
   body {
-    background-color: lightblue;
+     max-width: 768px
   }
 }
 
@@ -134,4 +134,5 @@
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatXfeyCkFLKzQHLGzwgbmh3BhmNZJ9-KeYg&s) ;
 
       }
+
 
